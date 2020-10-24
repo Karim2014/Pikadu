@@ -425,6 +425,7 @@ body {
 
 .add-text {
   min-height: 362px;
+  resize: none;
 }
 
 .add-button {
@@ -525,3 +526,8 @@ body {
   }
 }
 
+@media(max-width: 350px) {
+  .post-button {
+    margin-right: 10px;
+  }
+}
